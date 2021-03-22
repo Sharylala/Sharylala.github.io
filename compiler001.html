@@ -1,0 +1,27 @@
+<p>[TOC]</p>
+
+<h1>One Solution of IDEA Cache Problem</h1>
+
+<h2>Detail</h2>
+
+<p>In a terminal, under a project root, after I typed &quot;mvn clean install&quot;, the result was &quot;build success&quot;. But the IDEA showed that the project was missing some dependencies.</p>
+
+<h2>Solution</h2>
+
+<h3>Step 1.</h3>
+
+<p>In the IDEA, delete the target folder and the iml file under the project.</p>
+
+<h3>Step 2.</h3>
+
+<p>In the terminal, under the project, type &quot;mvn clean install&quot;.</p>
+
+<h3>Step 3.</h3>
+
+<p>In the IDEA, chose the project root then right-click &quot;Reload from Disk&quot;. Chose the pom file of the project then right-click &quot;Maven&quot; and &quot;Reload project&quot;. (At this moment, you can see the color of the project folder name brighter.)</p>
+
+<h3>Step 4.</h3>
+
+<p>In the IDEA, chose the project folder then Build Project.</p>
+
+<p>Any question or suggestion, it will be great.</p>
